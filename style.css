@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  
+   
+}
+
+h1{
+    color: #F6828C;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+form{
+    text-align: center;
+    box-shadow: 2px 5px 15px;
+    background: transparent;
+
+   
+    
+}
+#tempBox{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.temperature{
+
+    margin: 20px;
+
+}
+#CtoKelvin{
+    margin-right: 10%;
+}
+label{
+  
+    font-size: 1.2rem;
+}
+
+
+.btn-1{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+ background: red;
+ padding: 10px 15px;
+ color: white;
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.btn:hover{
+    background: crimson;
+}

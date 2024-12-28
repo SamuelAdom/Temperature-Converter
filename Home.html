@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <video autoplay muted loop class="background-video">
+            <source src="video/background.mp4" type="video/mp4">
+
+        </video>
+
+        <div class="container">
+            <form>
+                <h1>Temperature Conversion</h1>
+                <input type="number" id="tempBox" value="0"><br>
+                <input type="radio" name="unit" id="toFahrenheit" class="temperature">
+                <label for="toFahrenheit">Celsius ➡ Fahrenheit</label>
+                <br>
+                <input type="radio" name="unit" id="toCelsius" class="temperature">
+                <label for="toCelsius">Fahrenheit ➡ Celsius </label><br>
+                <input type="radio" name="unit" id="FtoKelvin" class="temperature">
+                <label for="FtoKelvin">Fahrenheit ➡ Kelvin </label><br>
+                <input type="radio" name="unit" id="CtoKelvin"  class="temperature">
+                <label for="CtoKelvin">Celsius ➡ Kelvin</label><br>
+                <div class="btn-1">
+                    <button type="button" class="btn"
+                         id="subBtn">Submit</button>
+                </div>
+                <p id="results"></p>
+
+            </form>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
